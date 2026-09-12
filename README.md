@@ -17,6 +17,16 @@ EduPulse AI is a machine learning-based system that predicts student academic pe
 - PDF student reports
 - Machine learning model comparison
 
+## Screenshots
+
+### Student Profile
+
+![Student Profile](screenshots/dashboard.png)
+
+### Prediction Results
+
+![Prediction Results](screenshots/results.png)
+
 ## Machine Learning Models
 
 - Linear Regression
@@ -44,6 +54,7 @@ EduPulse-AI/
 ├── data/
 ├── models/
 ├── src/
+├── screenshots/
 ├── app.py
 ├── train_model.py
 ├── generate_report.py
