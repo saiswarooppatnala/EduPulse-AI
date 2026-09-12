@@ -2,6 +2,11 @@
 
 ## Student Success & Risk Intelligence System
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 EduPulse AI is a machine learning-based system that predicts student academic performance, identifies risk levels, explains prediction factors, and provides personalized recommendations.
 
 ## Features
