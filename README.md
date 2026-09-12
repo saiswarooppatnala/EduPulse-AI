@@ -43,6 +43,10 @@ EduPulse AI allows users to:
 7. Detect and prioritize at-risk students
 8. Generate student performance reports
 
+## Workflow
+
+Student Data → ML Prediction → Risk Detection → Explainable AI → Recommendations → What-If Analysis → Student Report
+
 ## Machine Learning Models
 
 - Linear Regression
