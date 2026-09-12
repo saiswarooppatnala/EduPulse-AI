@@ -23,7 +23,6 @@ EduPulse AI is a machine learning-based system that predicts student academic pe
 - Machine learning model comparison
 
 ## Screenshots
-
 ### Student Profile
 
 ![Student Profile](screenshots/dashboard.png)
@@ -31,6 +30,18 @@ EduPulse AI is a machine learning-based system that predicts student academic pe
 ### Prediction Results
 
 ![Prediction Results](screenshots/results.png)
+## Demo
+
+EduPulse AI allows users to:
+
+1. Enter student academic and lifestyle information
+2. Predict final academic performance
+3. Identify student risk level
+4. Understand the factors influencing the prediction
+5. Generate personalized recommendations
+6. Simulate performance improvements using the What-If Simulator
+7. Detect and prioritize at-risk students
+8. Generate student performance reports
 
 ## Machine Learning Models
 
