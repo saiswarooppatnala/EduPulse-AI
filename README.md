@@ -1,28 +1,30 @@
-# EduPulse AI
+# 🎓 EduPulse AI
 
 ## Student Success & Risk Intelligence System
 
+EduPulse AI is a machine learning-powered student intelligence system that predicts academic performance, identifies at-risk students, explains prediction factors, and provides personalized recommendations.
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-EduPulse AI is a machine learning-based system that predicts student academic performance, identifies risk levels, explains prediction factors, and provides personalized recommendations.
+## 🚀 Features
 
-## Features
+- 📈 Student performance prediction
+- 🚨 Low, Medium, and High Risk detection
+- 🧠 Explainable AI insights
+- 💡 Personalized recommendations
+- 🔮 What-If performance simulator
+- 👥 At-Risk student detection
+- 🚨 Priority student identification
+- 📊 Risk distribution analysis
+- 📄 PDF student reports
+- 🤖 Machine learning model comparison
 
-- Student performance prediction
-- Low, Medium, and High Risk detection
-- Explainable AI insights
-- Personalized recommendations
-- What-If performance simulator
-- At-Risk student detection
-- Priority student identification
-- Risk distribution analysis
-- PDF student reports
-- Machine learning model comparison
+## 📸 Screenshots
 
-## Screenshots
 ### Student Profile
 
 ![Student Profile](screenshots/dashboard.png)
@@ -30,52 +32,71 @@ EduPulse AI is a machine learning-based system that predicts student academic pe
 ### Prediction Results
 
 ![Prediction Results](screenshots/results.png)
-## Demo
 
-EduPulse AI allows users to:
+## 🧠 Machine Learning Models
 
-1. Enter student academic and lifestyle information
-2. Predict final academic performance
-3. Identify student risk level
-4. Understand the factors influencing the prediction
-5. Generate personalized recommendations
-6. Simulate performance improvements using the What-If Simulator
-7. Detect and prioritize at-risk students
-8. Generate student performance reports
+EduPulse AI evaluates multiple machine learning models:
 
-## Workflow
+| Model | R² Score |
+|---|---:|
+| Linear Regression | 0.882 |
+| Gradient Boosting | 0.817 |
+| Random Forest | 0.787 |
+| Decision Tree | 0.429 |
 
-Student Data → ML Prediction → Risk Detection → Explainable AI → Recommendations → What-If Analysis → Student Report
+**Best Model:** Linear Regression — **R² = 0.882**
 
-## Machine Learning Models
+## 🔍 Explainable AI
 
-- Linear Regression
-- Decision Tree
-- Random Forest
-- Gradient Boosting
+The system explains how individual student factors influence the predicted performance score.
 
-The best-performing model on the synthetic test dataset is Linear Regression with an R² score of 0.882.
+Factors analyzed include:
 
-## Technologies
+- Study Hours
+- Attendance
+- Previous Score
+- Quiz Average
+- Sleep Hours
+- Assignments Completed
+- Screen Time
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
-- Joblib
-- ReportLab
-- Matplotlib
+## 🚨 At-Risk Student Detection
 
-## Project Structure
+EduPulse AI analyzes the complete student dataset to identify students requiring additional attention.
+
+The system provides:
+
+- Total student count
+- High-risk students
+- Medium-risk students
+- Low-risk students
+- Top risk factors
+- Priority student list
+- Risk distribution
+
+## 🔮 What-If Simulator
+
+The What-If Simulator allows users to explore how changes in:
+
+- Study Hours
+- Attendance
+- Screen Time
+
+could affect the predicted academic performance.
+
+## 🔄 Workflow
 
 ```text
-EduPulse-AI/
-├── data/
-├── models/
-├── src/
-├── screenshots/
-├── app.py
-├── train_model.py
-├── generate_report.py
-└── README.md
+Student Data
+     ↓
+ML Prediction
+     ↓
+Risk Detection
+     ↓
+Explainable AI
+     ↓
+Recommendations
+     ↓
+What-If Analysis
+     ↓
+Student Report
